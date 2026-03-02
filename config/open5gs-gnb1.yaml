@@ -1,0 +1,22 @@
+mcc: '999'
+mnc: '70'
+nci: '0x000000010'
+idLength: 32
+tac: 1
+
+linkIp: 192.168.102.135
+linkPort: 4997           # gNB1 RLS port
+ngapIp: 192.168.102.135
+gtpIp: 192.168.102.135
+gtpPort: 2152            # gNB1 GTP port
+
+amfConfigs:
+  - address: 192.168.102.134
+    port: 38412
+
+slices:
+  - sst: 1
+
+ignoreStreamIds: true
+logLevel: debug
+
